@@ -1,0 +1,30 @@
+{
+    "name": "yonidebleeker/quote-gen",
+    "keywords": [
+        "laravel",
+        "quote"
+    ],
+    "description": "this is a test in creating packages",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yonidebleeker\\QuoteGen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yoni De Bleeker"
+        }
+    ],
+    "require": {
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yonidebleeker\\QuoteGen\\QuoteGenServiceProvider"
+            ]
+        }
+    }
+}
