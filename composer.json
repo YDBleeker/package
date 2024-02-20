@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "yonidebleeker\\Quote\\QuoteServiceProvider"
+                "Yonidebleeker\\QuoteGen\\QuoteServiceProvider"
             ]
         }
     }
