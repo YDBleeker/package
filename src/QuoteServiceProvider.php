@@ -11,8 +11,8 @@ class QuoteServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('quote')
-            ->hasMigration('make_quotes_table');
-            //->runsMigrations();
+            ->hasMigration('make_quotes_table')
+            ->runsMigrations();
     }
 }
 
